@@ -2,7 +2,7 @@
 # SFEW-dataset
 ##################################################
 # Model-4
-#python src/classify_sfew.py CLASSIFY data/SFEW_100/Val/ models/model4/20170812-004516/ models/model4/svc_004516_sfewfc2.pkl --batch_size=128 --image_size=100
+python src/classify_sfew.py CLASSIFY data/SFEW_100/Val/ models/model4/20170812-004516/ models/model4/svc_004516_sfewfc2.pkl --batch_size=128 --image_size=100
 # Model-2
 #python src/classify_sfew.py CLASSIFY data/SFEW_100/Val/ models/model2/20170815-144407/ models/model2/svc_144407_sfewfc2.pkl --batch_size=128 --image_size=100
 # Model-baseline
